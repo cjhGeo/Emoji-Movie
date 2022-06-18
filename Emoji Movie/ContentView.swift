@@ -29,7 +29,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            RadialGradient(colors: [.red, .green, .orange, .brown, .yellow, .purple, .pink],
+            RadialGradient(colors: [.red, .green, .orange, .brown, .yellow, .purple, .pink, .cyan],
                            center: .center,
                            startRadius: 0,
                            endRadius: 270)
